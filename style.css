@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(bg.jpg);
+    background-size: cover;
+    
+    
+}
+
+nav{
+    display: flex;
+
+}
+
+nav img{
+    height: 100px;
+    width: 100px;
+    margin: 0 30px 0 30px; 
+    padding: 0;
+    /* background: black; */
+    
+
+}
+nav img:hover{
+    cursor: pointer;
+}
+
+li{
+    display: inline-block;
+    list-style: none;
+    /* background-color: yellow; */
+    /* padding: 20px; */
+    margin: 40px 0 0 40px;
+    
+    
+}
+
+li a{
+    text-decoration: none;
+    color:black;
+    padding: 5px 20px;
+    border-radius: 20px;
+    /* background-color: green; */
+    transition:all 0.5s;
+}
+li a:hover{
+    background: rgb(44, 113, 131);
+    color: rgb(225, 246, 255);
+    
+}
+
+.after{
+    display: flex;
+}
+
+.text{
+    height: auto;
+    width: 50vw;
+    margin: 30px;
+    margin-top: 50px;
+    padding: 30px;
+}
+.text h1{
+    padding: 20px 0 20px 0;
+    font-size: 3rem;
+}
+.text p{
+    padding: 10px 0 10px 0;
+    font-size: 1rem;
+}
+.text div{
+    width: 150px;
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 20px;
+    text-align: center;
+    background: rgb(44, 113, 131);
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.text div:hover{
+    background: rgb(11, 54, 65);
+    color: rgb(225, 246, 255);
+}
+
+.cards{
+    width: 32rem;
+    height: 26rem;
+    /* background-color: green; */
+    
+    
+}
+.card{
+    width: 12rem;
+    height: 14rem;
+    
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    margin: 7px;
+    padding: 7px;
+    border-radius: 10px;
+    transition: transform 0.5s;
+    cursor: pointer;
+}
+
+#card1{
+    background-image: url('img1.jpg');
+}
+
+#card2{
+    background-image: url('img2.jpg');
+    
+}
+
+#card3{
+    background-image: url('img3.jpg');
+    
+}
+
+#card4{
+    background-image: url('img4.jpg');
+    
+}
+.card h5{
+    font-size: medium;
+    padding-bottom: 10px;
+}
+.card p{
+    font-size: smaller;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+}
+
